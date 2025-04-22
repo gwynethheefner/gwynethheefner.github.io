@@ -4,7 +4,7 @@
     --primary: rgba(241, 152, 185, 0.905);
     --secondary: rgba(250, 155, 190, 0.943); 
     --buttonHover: rgba(192, 90, 133, 0.915);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --smallButtonHover: rgb(250, 246, 246);
 }
 
 html {
