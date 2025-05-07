@@ -23,7 +23,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -79,7 +79,7 @@ img {
     color: var(--secondaryText);
 }
 
-/* Remove background from strong tag in name */
+/* No background on name */
 .name strong {
     background-color: transparent;
 }
@@ -111,7 +111,7 @@ img {
     background-color: var(--primary);
     cursor: pointer;
     transition: 0.2s all;
-    margin-bottom: 1.2em; /* Added spacing between buttons */
+    margin-bottom: 1.2em; /* Extra space between buttons */
 }
 
 .button:not(.highlight) {
@@ -194,7 +194,7 @@ img {
     color: inherit;
 }
 
-/* Responsive layout adjustments */
+/* Responsive layout */
 @media (min-width: 540px) {
     .container {
         max-width: 540px;
@@ -219,7 +219,7 @@ img {
     }
 }
 
-/* New: Link preview styles with photo */
+/* Link preview with thumbnail */
 .link-preview {
     display: flex;
     flex-direction: column;
