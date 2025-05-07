@@ -1,10 +1,10 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(156, 39, 176, .40);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --primaryText: #ffc8d7;
+    --secondaryText: #ff97bd;
+    --primary: rgb(255, 151, 187);
+    --secondary: rgb(255, 142, 183); 
+    --buttonHover: rgb(255, 159, 193);
+    --smallButtonHover: rgb(255, 208, 227);
 }
 
 html {
@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 18px;
     display: flex;
@@ -88,7 +88,7 @@ img {
 }
 
 .name strong {
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgb(255, 255, 255);
 }
 
 .section-header {
