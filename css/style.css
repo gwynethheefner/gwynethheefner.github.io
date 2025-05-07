@@ -1,10 +1,10 @@
 :root {
     --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(156, 39, 176, .40);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --secondaryText: #ffb6d1;
+    --primary: rgb(255, 188, 215);
+    --secondary: rgb(255, 139, 182); 
+    --buttonHover: rgb(255, 146, 190);
+    --smallButtonHover: rgb(255, 255, 255);
 }
 
 html {
@@ -88,7 +88,7 @@ img {
 }
 
 .name strong {
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgb(255, 255, 255);
 }
 
 .section-header {
@@ -111,7 +111,7 @@ img {
 .button, .external-link {
     border: 1px solid var(--primaryText);
     border-radius: 20px;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 7px 6px 28px 1px rgb(255, 255, 255);
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
@@ -135,7 +135,7 @@ img {
 .button:active, .external-link:active { 
     transform: scale(0.98); 
     /* Scaling button to 0.98 to its original size */ 
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    box-shadow: 3px 2px 22px 1px rgb(255, 255, 255); 
     /* Lowering the shadow */ 
 } 
 
