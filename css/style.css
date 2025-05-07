@@ -1,6 +1,6 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ffb6d1;
+    --primaryText: #222; /* Changed from #fff for better visibility */
+    --secondaryText: #333; /* Slightly darker for contrast */
     --primary: rgb(255, 188, 215);
     --secondary: rgb(255, 139, 182); 
     --buttonHover: rgb(255, 146, 190);
@@ -9,7 +9,6 @@
 
 html {
     box-sizing: border-box;
-    /* keeps button boxes within phone screen width */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     height: 100%;
@@ -23,10 +22,10 @@ html {
 
 body {
     margin: 0;
-    min-height: 100%;
+    min-height: 100vh;
     /* The image used for the site background. Try changing skyscape.jpg to stars.jpg. Put a replacement photo in the images folder and, in line 21 below, replace skyscape.jpg with yourbackgroundfilename.jpg */
     /* The linear gradient darkens the image, like putting a sunglasses lens on top of it. If you want to darken the image even more, change 0.1 (both times) to 0.3 or higher */
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), src="images/backgroundd.jpg"
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/backgroundd.jpg');
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
@@ -41,15 +40,18 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    color: var(--primaryText); /* Text is now dark and visible */
 }
 
 h1 {
     font-size: 1em;
+    color: var(--primaryText);
 }
 
 h2 {
     font-size: 1em;
     margin-bottom: 0;
+    color: var(--primaryText);
 }
 
 img {
@@ -89,6 +91,7 @@ img {
 
 .name strong {
     background-color: rgb(255, 255, 255);
+    color: #000;
 }
 
 .section-header {
@@ -118,6 +121,7 @@ img {
     background-color: var(--primary);
     cursor: pointer;
     transition: 0.2s all;
+    margin: 1em 0; /* Added spacing between buttons */
 }
 
 .button:not(.highlight) {
@@ -188,16 +192,16 @@ img {
 }
 
 .footer {
-  font-size: .66em;
-  background-color: rgba(0, 0, 0, .5);
-  color: rgba(225, 225, 225, .8);
-  text-decoration: none;
-  width: 100%;
-  min-height: 3em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    font-size: .66em;
+    background-color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .9);
+    text-decoration: none;
+    width: 100%;
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .footer a {
@@ -209,7 +213,7 @@ img {
     .container {
         max-width: 540px;
     }
-    
+
     .button,
     .intro,
     .slidedown {
@@ -222,7 +226,7 @@ img {
     .container {
         max-width: 768px;
     }
-    
+
     .button,
     .intro,
     .slidedown {
