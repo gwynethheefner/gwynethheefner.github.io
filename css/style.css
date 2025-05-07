@@ -21,18 +21,21 @@ html {
 }
 
 body {
-    margin: 0;
-    min-height: 100%;
-    background: url(images/background.jpg) no-repeat center center fixed; /* Adjust path if necessary */
-    background-size: cover;
-    font-family: 'Roboto', Times New Roman, Verdana, sans-serif; /* Example with Google Font */
-    line-height: 1.5;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: rgb(255, 204, 204); /* Optional: To ensure text is readable against the background */
+    body {
+        margin: 0;
+        min-height: 100%;
+        background: url(images/background.jpg) no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Roboto', Times New Roman, Verdana, sans-serif;
+        line-height: 1.5;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: black; /* This makes the font color black */
+    }
+    
 }
 
 
