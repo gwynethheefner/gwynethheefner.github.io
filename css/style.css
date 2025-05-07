@@ -1,5 +1,5 @@
 :root {
-    --primaryText: #000000;
+    --primaryText: #ffffff;
     --secondaryText: #ffbbd4;
     --primary: rgb(255, 152, 202);
     --secondary: rgb(255, 119, 169); 
@@ -88,7 +88,7 @@ img {
 }
 
 .name strong {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 163, 206);
 }
 
 .section-header {
