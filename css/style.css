@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white; /* Optional: To ensure text is readable against the background */
+    color: rgb(255, 204, 204); /* Optional: To ensure text is readable against the background */
 }
 
 
