@@ -23,19 +23,18 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background: url(background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: url(images/background.jpg) no-repeat center center fixed; /* Adjust path if necessary */
     background-size: cover;
-    font-family: Times New Roman, Verdana, sans-serif; 
+    font-family: 'Roboto', Times New Roman, Verdana, sans-serif; /* Example with Google Font */
     line-height: 1.5;
     font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    color: white; /* Optional: To ensure text is readable against the background */
 }
+
 
 h1 {
     font-size: 1em;
